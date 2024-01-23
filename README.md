@@ -26,9 +26,9 @@ These instructions will help you set up the project on your local machine for de
 ### Installation
 
 After Installing PySerial library using:
-'''
+"""
   pip install pyserial
-'''
+"""
 1. Clone the repository:
 '''
   git clone https://github.com/yourusername/mmWave-Python-Tool.git
