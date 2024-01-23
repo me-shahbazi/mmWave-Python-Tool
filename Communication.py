@@ -2,7 +2,7 @@ import serial, time
 import serial.tools.list_ports as ports_list
 
 # Statics:
-CFGaddress = 'C:\\Users\\user\\Documents\\Shahbazi\\TLVparser\\config\\load.cfg' # Configuration File Address
+CFGaddress = 'config\\load.cfg' # Configuration File Address
 magicWord = b'\x02\x01\x04\x03\x06\x05\x08\x07'
 
 # Ports Declaration:
@@ -20,7 +20,7 @@ CliHandle = serial.Serial(port=CLIport, baudrate=115200, timeout=2) # Command Li
 print("----------")
 # Send configuration commands to the AWR1843 and checking Response
 with open(CFGaddress, 'r') as cfgFile:
-    print("Configuring RADAR Sensor...\n")
+    print("\nConfiguring RADAR Sensor...\n")
     for command in cfgFile:
         if not command.startswith('%'):
             CliHandle.write((command.strip() + '\n').encode('utf-8')) # Command sent to the AWR1843
