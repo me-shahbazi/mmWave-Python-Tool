@@ -26,21 +26,21 @@ These instructions will help you set up the project on your local machine for de
 ### Installation
 
 After Installing PySerial library using:
-"""
+```
   pip install pyserial
-"""
+```
 1. Clone the repository:
-'''
+```
   git clone https://github.com/yourusername/mmWave-Python-Tool.git
-'''
+```
 2. Navigate to the cloned repository:
-'''
+```
   cd mmWave-Python-Tool
-'''
+```
 3. Run the `Communication.py` script:
-'''
+```
   python Communication.py
-'''
+```
 
 ## License
 
