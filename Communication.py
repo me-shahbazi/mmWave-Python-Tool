@@ -76,4 +76,4 @@ try:
             break
 finally:
     CliHandle.close()
-    print("Designed by @me-shahbazi")
+    print("Developed by @me-shahbazi")
