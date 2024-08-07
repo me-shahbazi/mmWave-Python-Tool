@@ -1,5 +1,5 @@
 # mmWave-Python-Tool
-This repository contains very Simple Python scripts for interfacing with the AWR1843 mmWave sensor Demo project.
+This repository contains very Simple Python scripts for interfacing with the AWR1843 mmWave Radar sensor Out of Box Demo project.
 
 ## Project Status
 
